@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rahul Mobiles - Best Mobile Store in Town. Quality phones, accessories and repair services.">
+    <meta name="keywords" content="mobile store, phone repair, mobile accessories, Samsung, Redmi, Vivo, Oppo, Realme, Apple">
+    <meta name="author" content="Rahul Mobiles">
+    <title>Rahul Mobiles - Best Mobile Store in Town</title>
+    
+    <link rel="stylesheet" href="rahul-mobiles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📱</text></svg>">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header class="header" role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="navbar-logo">
+                    <img src="logo.jpg" alt="Rahul Mobiles Logo" class="navbar-logo-image" loading="lazy">
+                    <div class="navbar-logo-text">
+                        <span class="logo-main">Rahul Mobiles</span>
+                        <span class="logo-sub">Sales & Services</span>
+                    </div>
+                </div>
+                
+                <ul class="nav-menu" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a href="#home" class="nav-link" role="menuitem" aria-label="Navigate to Home section">
+                            <i class="fas fa-home nav-icon" aria-hidden="true"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#brands" class="nav-link" role="menuitem" aria-label="Navigate to Brands section">
+                            <i class="fas fa-tags nav-icon" aria-hidden="true"></i>
+                            <span>Brands</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#why-choose-us" class="nav-link" role="menuitem" aria-label="Navigate to Why Choose Us section">
+                            <i class="fas fa-star nav-icon" aria-hidden="true"></i>
+                            <span>Why Choose Us</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#services" class="nav-link" role="menuitem" aria-label="Navigate to Services section">
+                            <i class="fas fa-concierge-bell nav-icon" aria-hidden="true"></i>
+                            <span>Services</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#about" class="nav-link" role="menuitem" aria-label="Navigate to About Us section">
+                            <i class="fas fa-info-circle nav-icon" aria-hidden="true"></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#contact" class="nav-link" role="menuitem" aria-label="Navigate to Contact Us section">
+                            <i class="fas fa-envelope nav-icon" aria-hidden="true"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <button class="mobile-menu-toggle" 
+                        aria-label="Toggle mobile menu" 
+                        aria-expanded="false"
+                        aria-controls="nav-menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-slider" aria-label="Hero slider">
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slide active">
+                    <img src="sild1.jpg" alt="Latest Smartphones" class="slide-image" loading="lazy">
+                    <div class="slide-content">
+                        <h2>Latest Smartphones</h2>
+                        <p>Discover the newest models from top brands</p>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <img src="sild3.jpg.jpeg" alt="Mobile Accessories" class="slide-image" loading="lazy">
+                    <div class="slide-content">
+                        <h2>Premium Accessories</h2>
+                        <p>Quality cases, chargers, and more</p>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <img src="sild2.jpg.jpeg" alt="Repair Services" class="slide-image" loading="lazy">
+                    <div class="slide-content">
+                        <h2>Expert Repair Services</h2>
+                        <p>Professional repair with genuine parts</p>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <img src="sild4.jpg" alt="Special Offers" class="slide-image" loading="lazy">
+                    <div class="slide-content">
+                        <h2>Special Offers</h2>
+                        <p>Best deals and exchange offers</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="slider-btn prev-btn" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-btn next-btn" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <div class="slider-indicators">
+                <button class="indicator active" aria-label="Go to slide 1" data-slide="0"></button>
+                <button class="indicator" aria-label="Go to slide 2" data-slide="1"></button>
+                <button class="indicator" aria-label="Go to slide 3" data-slide="2"></button>
+                <button class="indicator" aria-label="Go to slide 4" data-slide="3"></button>
+            </div>
+        </div>
+    </section>
+
+    <main id="main" role="main">
+        <section id="brands" class="brands section" aria-labelledby="brands-title">
+            <div class="container">
+                <header class="section-header animate-on-scroll">
+                    <h2 id="brands-title" class="section-title animate-on-scroll">Available Brands</h2>
+                    <p class="section-subtitle animate-on-scroll">We offer products from all leading mobile brands</p>
+                </header>
+                
+                <div class="brands-grid">
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="applelogo.jpg" alt="Apple Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Apple</h3>
+                        <p class="brand-description">iPhone series and accessories</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="oneplus.jpg" alt="OnePlus Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">OnePlus</h3>
+                        <p class="brand-description">Premium smartphones with flagship features</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="googlelogo.jpg" alt="Google Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Google</h3>
+                        <p class="brand-description">Pixel phones with pure Android experience</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="samlogo.jpg" alt="Samsung Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Samsung</h3>
+                        <p class="brand-description">Galaxy series and innovative mobile technology</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="vivologo.jpg" alt="Vivo Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Vivo</h3>
+                        <p class="brand-description">Camera-focused smartphones with style</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="oppologo.jpg" alt="Oppo Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Oppo</h3>
+                        <p class="brand-description">Innovative camera technology and design</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="motologo.jpg" alt="Motorola Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Motorola</h3>
+                        <p class="brand-description">Moto series and edge smartphones</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="milogo.jpg" alt="Xiaomi Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Xiaomi</h3>
+                        <p class="brand-description">Mi and Redmi series devices</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="realmelogo.jpg" alt="Realme Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Realme</h3>
+                        <p class="brand-description">GT series and Narzo smartphones</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="iqoo.jpg" alt="iQOO Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">iQOO</h3>
+                        <p class="brand-description">Gaming smartphones and performance devices</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="tecno.jpg" alt="Tecno Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Tecno</h3>
+                        <p class="brand-description">Affordable smartphones and innovative features</p>
+                    </div>
+                    
+                    <div class="brand-card animate-on-scroll">
+                        <div class="brand-logo">
+                            <img src="nothing.jpg" alt="Nothing Logo" class="brand-image" loading="lazy">
+                        </div>
+                        <h3 class="brand-name">Nothing</h3>
+                        <p class="brand-description">Minimalist design and premium smartphones</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="why-choose-us section" aria-labelledby="why-choose-us-title">
+            <div class="container">
+                <header class="section-header animate-on-scroll">
+                    <h2 id="why-choose-us-title" class="section-title animate-on-scroll">Why Choose Rahul Mobiles</h2>
+                    <p class="section-subtitle animate-on-scroll">Discover what makes us the preferred choice for mobile solutions</p>
+                </header>
+                
+                <div class="why-grid">
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>12+ Years Experience</h3>
+                        <p>Over a decade of expertise in mobile sales, repairs, and customer service. We know mobiles inside and out.</p>
+                    </div>
+                    
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>100% Genuine Products</h3>
+                        <p>All our products are 100% genuine with manufacturer warranty. No fake or duplicate products ever.</p>
+                    </div>
+                    
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Expert Repair Service</h3>
+                        <p>Certified technicians with latest tools and equipment. Quick turnaround time on all repairs.</p>
+                    </div>
+                    
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon">
+                            <i class="fas fa-tags"></i>
+                        </div>
+                        <h3>Best Price Guarantee</h3>
+                        <p>Competitive pricing with price match guarantee. Get the best deals on all mobile products.</p>
+                    </div>
+                    
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Customer Support</h3>
+                        <p>Dedicated customer support team available 24/7 to help with all your mobile needs.</p>
+                    </div>
+                    
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Free Delivery</h3>
+                        <p>Free home delivery within Kalyan city. Quick and safe delivery to your doorstep.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services section" aria-labelledby="services-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="services-title" class="section-title animate-on-scroll">Our Services</h2>
+                    <p class="section-subtitle animate-on-scroll">Complete mobile solutions for all your needs</p>
+                </header>
+                
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Mobile Sales</h3>
+                        <p class="service-description">Latest smartphones from top brands with warranty and best prices guaranteed.</p>
+                    </div>
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-headphones" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Accessories</h3>
+                        <p class="service-description">Wide range of premium accessories including cases, chargers, screen protectors, and more.</p>
+                    </div>
+                    
+                     <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-sync-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Mobile Exchange</h3>
+                        <p class="service-description">Upgrade your old phone and get best exchange value. Save more on your next purchase with our special exchange offers.</p>
+                    </div>
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-credit-card" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">EMI & Finance Options</h3>
+                        <p class="service-description">Easy EMI plans available with flexible payment options to make your purchases affordable and budget-friendly.</p>
+                    </div>
+
+
+                     <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Data Transfer</h3>
+                        <p class="service-description">Safe and secure data transfer between devices with backup and recovery options.</p>
+                    </div>
+
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-tools" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Repairing</h3>
+                        <p class="service-description">Expert repair services for all mobile brands with genuine parts and quick turnaround.</p>
+                    </div>
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-download" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Software Update</h3>
+                        <p class="service-description">Latest software updates, OS installations, and optimization services for smooth performance.</p>
+                    </div>
+                    
+                
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-headset" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Customer Support</h3>
+                        <p class="service-description">Dedicated customer support for all your queries, warranty issues and after-sales service.</p>
+                    </div>
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-truck" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Pick & Drop Service</h3>
+                        <p class="service-description">We offer convenient doorstep pick up and drop service for mobile repair and servicing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section" aria-labelledby="about-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="about-title" class="section-title animate-on-scroll">About Us</h2>
+                    <p class="section-subtitle animate-on-scroll">Your trusted mobile partner</p>
+                </header>
+                
+                <div class="about-content">
+                    <div class="about-text animate-on-scroll">
+                        <h3>Welcome to Rahul Mobiles</h3>
+                        <p>Rahul Mobiles is a trusted mobile shop providing quality phones, accessories and repair services. With over 12 years of experience in the mobile industry, we have established ourselves as a reliable destination for all mobile-related needs.</p>
+                        <p>Our commitment to customer satisfaction, competitive pricing, and quality service has helped us build a loyal customer base. We take pride in offering genuine products, expert repair services, and personalized attention to each customer.</p>
+                        <p>Whether you're looking for the latest smartphone, need professional repair services, or want to purchase quality accessories, Rahul Mobiles is your one-stop solution for all mobile needs.</p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item animate-on-scroll">
+                                <div class="stat-number" data-target="12">12+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                            <div class="stat-item animate-on-scroll">
+                                <div class="stat-number" data-target="10000">10000+</div>
+                                <div class="stat-label">Happy Customers</div>
+                            </div>
+                            <div class="stat-item animate-on-scroll">
+                                <div class="stat-number">ALL</div>
+                                <div class="stat-label">brands</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual animate-on-scroll">
+                        <div class="store-illustration">
+                            <i class="fas fa-store"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section" aria-labelledby="contact-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="contact-title" class="section-title animate-on-scroll">Contact Us</h2>
+                    <p class="section-subtitle animate-on-scroll">Get in touch with us</p>
+                </header>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card animate-on-scroll">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Address</h3>
+                                <p>Shop No.2 Opp sai leela Hospital,</p>
+                                <p>Khadakpada, Kalayn (W) 421301</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card animate-on-scroll">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+919594205557">+91 95942 05557</a></p>
+                                <p><a href="tel:+919987137143">+91 99871 37143</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card animate-on-scroll">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>WhatsApp</h3>
+                                <a href="https://wa.me/919594205557?text=Hi%20Rahul%20Mobiles!%20I%20need%20help%20with..." 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="whatsapp-btn">
+                                    <i class="fab fa-whatsapp"></i>
+                                    Chat on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card animate-on-scroll">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p><a href="mailto:rahulmobiles007@gmail.com">rahulmobiles007@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-section">
+                        <div class="contact-form animate-on-scroll">
+                            <h3>Send us a Message</h3>
+                            <form id="contactForm" class="form">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Your Name *</label>
+                                    <input type="text" id="name" name="name" class="form-input" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" id="email" name="email" class="form-input" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" class="form-input">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary btn-full">
+                                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Google Map -->
+                <div class="map-section animate-on-scroll">
+                    <h3>Our Location</h3>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.486129469597!2d73.13386257520979!3d19.252687481988563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be79680cb0e64c1%3A0x39708272ca7c3894!2sRahul%20Mobiles!5e1!3m2!1sen!2sin!4v1770983457034!5m2!1sen!2sin"</iframe>"
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Rahul Mobiles Location Map"
+                            aria-label="Google Maps showing Rahul Mobiles location">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo" role="img" aria-label="Rahul Mobiles Logo">
+                        <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        <span>Rahul Mobiles</span>
+                    </div>
+                    <p>Your trusted mobile shop for quality phones, accessories, and repair services.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <nav aria-label="Footer navigation">
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#brands">Brands</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +91 95942 05557</p>
+                        <p><i class="fas fa-envelope"></i> rahulmobiles007@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links" role="navigation" aria-label="Social media links">
+                        <a href="https://www.facebook.com/share/17uS5kzpiT/?mibextid=wwXIfr" class="social-link" aria-label="Follow us on Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/rahulmobiles?igsh=MW03d2IzODNyZ3RkbQ%3D%3D&utm_source=qr" class="social-link" aria-label="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://youtube.com/@rahulmobile1434?si=gUKVimY1CGFURj7G" class="social-link" aria-label="Subscribe to our YouTube channel" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://wa.me/919594205557" class="social-link" aria-label="Contact us on WhatsApp" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rahul Mobiles. All rights reserved. | Designed with <i class="fas fa-heart" aria-hidden="true"></i> for our customers</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" 
+            aria-label="Back to top" 
+            role="button">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="rahul-mobiles.js"></script>
+</body>
+</html>
